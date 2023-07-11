@@ -116,37 +116,40 @@ nav .menu-item ul li a {
 .banner-image {
     /* width: 500px; */
 }
-
-
-
-.dome-card-group {
+.dome-card-group{
     display: flex;
-    gap: 24px
+    justify-content: space-between;
 }
 
-.dome-card {
-    /* border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-    height: 540px;
-    width: 470px;
-    display: ; */
+.dome-card{
+    width: 30%;
+    background-color: #E55473;
+    border-radius: 300px 300px 0 0;
+    margin: 0 auto;
+}
+.dome-card:nth-child(1) img {
+    margin: 100px 108px 0px;
 }
 
-.first-image {}
-
-.second-image {
-    margin-top: 111px;
-    padding: 0 70px;
+.dome-card:nth-child(2){
+    background-color: lightgreen;
+}
+.dome-card:nth-child(2) img {
+    margin: 100px 66px 0px;
 }
 
-.third-image {
-    margin-top: 70px;
-    padding: 0 70px;
+.dome-card:nth-child(3){
+    background-color: lightsalmon;
 }
+.dome-card:nth-child(3) img {
+    margin: 100px 114px 0px;
+}
+
+
 
 .gallery {
     display: flex;
-    gap: 24px;
+    justify-content: space-between;
 }
 
 .sale {
@@ -180,6 +183,10 @@ nav .menu-item ul li a {
     padding: 22px;
 }
 
+#subscribe form input[type="submit"] {
+    font-size: 13px;
+    padding: 20px 35px;
+}
 
 /* Footer */
 
