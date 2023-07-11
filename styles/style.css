@@ -191,6 +191,17 @@ main .container {
     justify-content: space-between;
 }
 
+.occasion-container{
+    display: flex;
+    justify-content: space-between;
+}
+.occasion-card{
+    width: 23%;
+}
+.occasion-card img{
+    width: 100%;
+}
+
 /* Subscribe Section CSS */
 
 #subscribe {
