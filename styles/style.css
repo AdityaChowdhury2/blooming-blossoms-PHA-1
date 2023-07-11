@@ -1,3 +1,8 @@
+/* Some common classes */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .container {
     max-width: 1440px;
     margin: 0px auto;
@@ -7,24 +12,19 @@
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 0;
+    color: #272727;
 }
 
 .desc {
     font-size: 18px;
     line-height: 30px;
     margin-top: 10px;
+    color: rgba(39, 39, 39, 0.60);
 }
 
-/* Button */
 .primary-color {
     color: #E55473;
 }
-
-main .container {
-    margin-top: 128px;
-}
-
-/* Section Intro */
 
 .section-intro {
     max-width: 600px;
@@ -32,14 +32,16 @@ main .container {
     text-align: center;
 }
 
-section .title {
-    color: #272727;
-}
 
-section .desc {
-    color: rgba(39, 39, 39, 0.60);
+/* Button */
+.btn-primary {
+    background-color: #E55473;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #fff;
 }
-
 
 header,
 #hot-deal {
@@ -48,19 +50,9 @@ header,
 }
 
 .logo {
-    font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 25px;
     line-height: 20px;
-}
-
-.btn-primary {
-    background-color: #E55473;
-    padding: 10px 20px;
-    border: 0;
-    border-radius: 4px;
-    font-weight: 700;
-    color: #fff !important;
 }
 
 /* Navigation Related Style */
@@ -70,7 +62,6 @@ nav {
     align-items: center;
 }
 
-nav .menu-item {}
 
 nav .menu-item ul {
     display: flex;
@@ -100,25 +91,18 @@ nav .menu-item ul li a {
     width: 45%;
 }
 
-.banner-title {
+.banner .title {
     font-size: 80px;
-    color: #272727;
-    font-weight: 800;
 }
 
-.banner-desc {
-    color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 18px;
-    line-height: 30px;
-}
-
-.banner-image {
-    /* width: 500px; */
-}
-
-.dome-card-group {
+/* main */
+main .container {
     margin-top: 128px;
+}
+
+/* Dome Card css */
+.dome-card-group {
+    margin-top: 48px;
     display: flex;
     justify-content: space-between;
 }
@@ -133,25 +117,21 @@ nav .menu-item ul li a {
     background-color: rgba(167, 33, 98, 0.15);
 }
 
-.image-first {
-    display: flex;
-    margin: 122px auto 0;
-}
-
 .second-dome-card {
     background-color: rgba(5, 151, 160, 0.15);
-}
-
-.image-second {
-    display: flex;
-    margin: 122px auto 0;
 }
 
 .third-dome-card {
     background-color: rgba(71, 125, 17, 0.15);
 }
 
-.image-third {
+.first-dome-card img,
+.second-dome-card img {
+    display: flex;
+    margin: 122px auto 0;
+}
+
+.third-dome-card img {
     display: flex;
     margin: 79px auto 0;
 }
@@ -170,6 +150,7 @@ nav .menu-item ul li a {
     text-decoration-line: underline;
 }
 
+/* features CSS */
 
 .features {
     border-radius: 8px;
@@ -190,42 +171,27 @@ nav .menu-item ul li a {
     line-height: 35px;
 }
 
-
-/* 
-.dome-card:nth-child(1) img {
-    margin: 100px 108px 0px;
-}
-
-.dome-card:nth-child(2){
-    background-color: lightgreen;
-}
-.dome-card:nth-child(2) img {
-    margin: 100px 66px 0px;
-}
-
-.dome-card:nth-child(3){
-    background-color: lightsalmon;
-}
-.dome-card:nth-child(3) img {
-    margin: 100px 114px 0px;
-} */
-
-
-
-.gallery {
-    display: flex;
-    justify-content: space-between;
-}
+/* Sale banner CSS */
 
 .sale {
     padding: 80px 190px 100px;
+}
+
+.sale .banner-content .title {
+    font-size: 40px;
 }
 
 .sale .banner-content {
     text-align: center;
 }
 
+/* Instagram gallery CSS */
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
 
+/* Subscribe Section CSS */
 
 #subscribe {
     background-image: url("../images/Rectangle9.png");
@@ -253,7 +219,7 @@ nav .menu-item ul li a {
     padding: 20px 35px;
 }
 
-/* Footer */
+/* Footer CSS */
 
 footer {
     margin-top: 128px;
