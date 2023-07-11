@@ -171,6 +171,29 @@ main .container {
     line-height: 35px;
 }
 
+/* Occasion CSS */
+
+.occasion-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.occasion-card {
+    width: 23%;
+}
+
+.occasion-card img {
+    width: 100%;
+}
+
+.occasion-card p {
+    text-align: center;
+}
+
+.occasion-card p a {
+    color: #272727
+}
+
 /* Sale banner CSS */
 
 .sale {
@@ -191,16 +214,6 @@ main .container {
     justify-content: space-between;
 }
 
-.occasion-container{
-    display: flex;
-    justify-content: space-between;
-}
-.occasion-card{
-    width: 23%;
-}
-.occasion-card img{
-    width: 100%;
-}
 
 /* Subscribe Section CSS */
 
