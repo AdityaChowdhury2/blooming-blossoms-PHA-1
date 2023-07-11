@@ -45,3 +45,28 @@ nav .menu-item ul li{
 nav .menu-item ul li a{
     text-decoration: none;
 }
+
+/* Banner */
+.banner{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 45%;
+}
+.banner-title{
+    font-size: 80px;
+    color: #272727;
+    font-weight: 800;
+}
+.banner-desc{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 30px;
+}
+.banner-image{
+
+}
