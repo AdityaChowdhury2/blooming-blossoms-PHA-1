@@ -1,0 +1,47 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* Button */
+.primary-color{
+    color: #E55473;
+}
+header{
+    background-color: rgba(229, 84, 115, 0.10);;
+}
+.logo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+}
+.btn-primary{
+    background-color: #E55473;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #fff!important;
+}
+
+/* Navigation Related Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu-item{
+    
+}
+nav .menu-item ul{
+    display: flex;
+    align-items: center;
+    gap:50px
+} 
+nav .menu-item ul li{
+    list-style: none;
+}
+
+nav .menu-item ul li a{
+    text-decoration: none;
+}
