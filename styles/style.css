@@ -116,17 +116,82 @@ nav .menu-item ul li a {
 .banner-image {
     /* width: 500px; */
 }
-.dome-card-group{
+
+.dome-card-group {
+    margin-top: 128px;
     display: flex;
     justify-content: space-between;
 }
 
-.dome-card{
+.dome-card {
+    height: 550px;
     width: 30%;
-    background-color: #E55473;
     border-radius: 300px 300px 0 0;
-    margin: 0 auto;
 }
+
+.first-dome-card {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.image-first {
+    display: flex;
+    margin: 122px auto 0;
+}
+
+.second-dome-card {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.image-second {
+    display: flex;
+    margin: 122px auto 0;
+}
+
+.third-dome-card {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.image-third {
+    display: flex;
+    margin: 79px auto 0;
+}
+
+.card-caption {
+    display: flex;
+    justify-content: space-around
+}
+
+.card-caption>p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+
+.features {
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+
+.feature-card {
+    text-align: center;
+}
+
+.feature-card p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
+/* 
 .dome-card:nth-child(1) img {
     margin: 100px 108px 0px;
 }
@@ -143,7 +208,7 @@ nav .menu-item ul li a {
 }
 .dome-card:nth-child(3) img {
     margin: 100px 114px 0px;
-}
+} */
 
 
 
