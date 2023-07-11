@@ -1,6 +1,18 @@
 .container {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0px auto;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.desc {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
 }
 
 /* Button */
@@ -8,8 +20,8 @@
     color: #E55473;
 }
 
-section {
-    margin-bottom: 128px;
+main .container {
+    margin-top: 128px;
 }
 
 /* Section Intro */
@@ -20,23 +32,17 @@ section {
     text-align: center;
 }
 
-.section-title {
+section .title {
     color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 0;
 }
 
-.section-desc {
-
+section .desc {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    line-height: 30px;
-    margin-top: 10px;
 }
 
 
-header {
+header,
+#hot-deal {
     background-color: rgba(229, 84, 115, 0.10);
     ;
 }
@@ -119,11 +125,11 @@ nav .menu-item ul li a {
 }
 
 .dome-card {
-    border-radius: 300px 300px 0px 0px;
+    /* border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     height: 540px;
     width: 470px;
-    display: ;
+    display: ; */
 }
 
 .first-image {}
@@ -142,6 +148,16 @@ nav .menu-item ul li a {
     display: flex;
     gap: 24px;
 }
+
+.sale {
+    padding: 80px 190px 100px;
+}
+
+.sale .banner-content {
+    text-align: center;
+}
+
+
 
 #subscribe {
     background-image: url("../images/Rectangle9.png");
@@ -162,4 +178,26 @@ nav .menu-item ul li a {
     border-radius: 8px;
     margin-right: 16px;
     padding: 22px;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 128px;
+    color: #fff;
+    background: #111010;
+    padding: 120px 0;
+}
+
+footer .title {
+    color: #FFFFFF;
+}
+
+footer .desc {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+footer p>small {
+    color: rgba(255, 255, 255, 0.40);
 }
