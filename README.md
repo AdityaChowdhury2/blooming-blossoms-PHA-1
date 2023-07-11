@@ -1,5 +1,5 @@
 # blooming-blossoms-PHA-1
-Programming Hero Batch-8 Assignment - 1
+
 
 Here I try to create a flower shop with basic HTML and CSS.
 
